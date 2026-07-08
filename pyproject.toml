@@ -1,0 +1,16 @@
+[project]
+name = "failurelab"
+version = "0.1.0"
+description = "ML platform for automated model failure discovery and stress testing"
+authors = [
+    {name = "Alexander Moor"}
+]
+license = "MIT"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
